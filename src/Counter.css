@@ -1,0 +1,35 @@
+
+.counter-widget {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 1px solid #b6b5b5;
+    padding: 20px;
+    background-color: #f2f2f2;
+    vertical-align: middle;
+    min-width: 80vw;
+  }
+  
+  .counter-widget > * {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .quote{
+    padding: 1rem 2rem;
+    border: 2px solid black;
+    min-height: 20px;
+    width: 80vw;
+  }
